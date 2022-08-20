@@ -1,0 +1,9 @@
+---
+
+
+## Test Yaml script
+
+resource "aws_image" "ubuntu"
+{
+  image="ubuntu:latest"
+}

@@ -10,3 +10,6 @@ else
   echo "  $a is less or equal to $b "
 fi
 
+resource "aws_image" "ubuntu"{
+  image="ubuntu:latest"
+}
